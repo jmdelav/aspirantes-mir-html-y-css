@@ -1,0 +1,60 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 100px;
+}
+
+form {
+    width: 300px;
+    height: 330px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, #bd09b7, #6b4cf5);
+    color: #fff;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.35);
+
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  label {
+    margin-bottom: 5px;
+    color: #fff;
+  }
+
+  input, select {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+  }
+
+  input[type="checkbox"] {
+    width: auto;
+  }
+
+  button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #505050;
+    font-weight: bold;
+    cursor: pointer;
+    float:right;
+  }
+
+  @media (min-width:500px) {
+    form {
+        width: 450px;
+    }
+  }
